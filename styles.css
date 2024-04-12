@@ -1,0 +1,152 @@
+html{
+    font-size: 67.5%;
+}
+
+body{
+    background-color: rgb(51, 70, 92);
+    margin: 4.5rem auto;
+}
+
+#fundoum{
+   background-image: url(imagens/pattern-background-desktop.svg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:unset;
+    width: 100%;
+    height:100%;
+    border-radius: 1rem;
+    background-color: rgba(217, 231, 252, 0.753);
+    margin: 0rem auto;
+    align-content: center;
+}
+
+#divImagem{
+    background-image: url(imagens/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: violet;
+    background-size: cover;
+    height: 250px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: 100%;
+}
+
+#change{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: rgb(34, 17, 128);
+    width: 5rem;
+    height: 1.2rem;
+    margin: -2.5rem auto;
+    margin-right: 3%;
+    border-radius: 1rem;
+}
+
+#change:hover{
+    background-color: #c9e9ff;
+    color: rgb(45, 13, 255);
+    text-decoration: none;
+}
+
+#divPrincipal{
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    width: min(40rem, 100%);
+    height: 750px;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 2rem #22222280;
+}
+
+#proximo{
+    border:transparent;
+    background-color: hsl(231, 63%, 43%);
+    color: rgb(255, 255, 255);
+    width: 350px;
+    padding: 1rem 4rem 1rem 4rem;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+#proximo:hover{
+    background-color: hsl(231, 66%, 21%);
+    color: rgb(211, 225, 238);
+    text-decoration: underline;
+}
+
+#cancelar{
+    border:transparent;
+    width: 350px;
+    padding: 1rem 4rem 1rem 4rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color: #999898;
+}
+
+#cancelar:hover{
+    background-color: rgba(122, 122, 122, 0.527);
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#blocopag{
+    background-color: rgb(238, 241, 255);
+    width: 20rem;
+    height: 5.5rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+#annual{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color:transparent;
+    width: max-content;
+    height: 1rem;
+    margin: auto;
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+#preco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: transparent;
+    width: max-content;
+    height: 1rem;
+    margin: auto;
+    margin-left: 5.2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: #999898;
+}
+
+
+#icone{
+    background-image: url(imagens/icon-music.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 5rem;
+    height: 4rem;
+    margin-top: -3.5rem;
+    background-position: left;
+    margin-left: 1rem;
+}
+
+#texto{
+    color: #999898;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5rem;
+}
+
+#titulo{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+}
